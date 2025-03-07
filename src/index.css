@@ -1,0 +1,34 @@
+.w-20{
+    width: 20%;
+}
+.w-30{
+    width: 30%;
+}
+.img
+{
+    width: 100px;
+}
+.bi{
+    margin-right: 10px;
+}
+
+.story{
+    height:70PX;
+}
+
+.profile{
+    height: 50px;
+    width: 50px;
+}
+
+.post-img{
+    width: 70%;
+    height: 70%;
+}
+.story-color{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);;
+
+}

@@ -1,0 +1,129 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "profile_pic":  "/images/assets/images.jpeg",
+      "post_id": "post_101",
+      "post_img": "/images/assets/images (2).jpeg",
+      "caption": "A stamble may prevent a call",
+      "likes": 1200,
+      "comments": [
+        { "user": "alice", "comment": "Wow, amazing view!" },
+        { "user": "bob", "comment": "Love this!" }
+      ]
+    },
+    {
+      "id": "2",
+      "username": "emma_watson",
+      "profile_pic": "/images/assets/607cfe5c405025fad5913eb202ec0219.jpg",
+      "post_id": "post_102",
+      "post_img": "/images/assets/cool-profile-pic-matheus-ferrero-landscape-6cbeea07ce870fc53bedd94909941a4b-zybravgx2q47.jpeg",
+      "caption": "😊 Smiles are contagious. Pass them on. ✨ #PureJoy",
+      "likes": 850,
+      "comments": [
+        { "user": "charlie", "comment": "That looks delicious!" },
+        { "user": "david", "comment": "Where did you get this cup?" }
+      ]
+    },
+    {
+      "id": "3",
+      "username": "mike_smith",
+      "profile_pic": "/images/assets/images (1).jpeg",
+      "post_id": "post_103",
+      "post_img": "/images/assets/download.jpeg",
+      "caption": "🖤 Low-key, high vibes. Keep it simple, keep it real. #ChillMode",
+      "likes": 1500,
+      "comments": [
+        { "user": "emma", "comment": "Looks like fun!" },
+        { "user": "frank", "comment": "Nice shot!" }
+      ]
+    },
+    {
+      "id": "4",
+      "username": "sarah_jones",
+      "profile_pic": "/images/assets/67e023b63ff7d3833ac1d356313a7951.jpg",
+      "post_id": "post_104",
+      "post_img": "/images/assets/c977cd680274a23c0da762a57eecc626.jpg",
+      "caption":"🌅 Lost in the golden hour, found in the moment. ✨ ",
+      "likes": 980,
+      "comments": [
+        { "user": "george", "comment": "Recipe please!" },
+        { "user": "hannah", "comment": "Yummy!" }
+      ]
+    },
+    {
+      "id": "5",
+      "username": "nancy_roberts",
+      "profile_pic": "/images/assets/f078c788e1ec78c94962926b9a97b8ab.jpg",
+      "post_id": "post_105",
+      "post_img": "/images/assets/images (3).jpeg",
+      "caption": "📸 Somewhere between a dream and reality. #MonochromeMood",
+      "likes": 1320,
+      "comments": [
+        { "user": "isla", "comment": "Take me there!" },
+        { "user": "jack", "comment": "Paradise!" }
+      ]
+    }
+  ],
+  "profile" : {
+    "id": "1",
+      "username": "john_doe",
+      "profile_pic":  "/images/assets/images.jpeg"
+  },
+  "suggestions" :[
+    {
+      "id": "2",
+      "username": "emma_watson",
+      "profile_pic": "/images/assets/607cfe5c405025fad5913eb202ec0219.jpg"
+    },
+     {
+      "id": "5",
+      "username": "nancy_roberts",
+      "profile_pic": "/images/assets/f078c788e1ec78c94962926b9a97b8ab.jpg"
+     },
+     {
+       "id": "4",
+      "username": "sarah_jones",
+      "profile_pic": "/images/assets/67e023b63ff7d3833ac1d356313a7951.jpg"
+     },
+     {
+      "id": "3",
+      "username": "mike_smith",
+      "profile_pic": "/images/assets/images (1).jpeg"
+     }
+
+  ],
+  "story" :[
+    {
+      "img" : "/images/assets/pexels-felixmittermeier-1459505.jpg",
+      "username" :"john_doe",
+      "id" :"1",
+      "profile_pic":  "/images/assets/images.jpeg"
+    },
+    {
+      "img" : "/images/assets/download (1).jpeg",
+      "id": "2",
+      "username": "emma_watson",
+      "profile_pic": "/images/assets/607cfe5c405025fad5913eb202ec0219.jpg"
+    },
+    {
+     "img" : "/images/assets/download (2).jpeg",
+     "id": "3",
+     "username": "mike_smith",
+     "profile_pic": "/images/assets/images (1).jpeg"
+    },
+    {
+      "img" : "/images/assets/images (4).jpeg",
+      "id": "4",
+      "username": "sarah_jones",
+      "profile_pic": "/images/assets/67e023b63ff7d3833ac1d356313a7951.jpg"
+    },
+    {
+      "img" : "/images/assets/images (5).jpeg",
+      "id": "5",
+      "username": "nancy_roberts",
+      "profile_pic": "/images/assets/f078c788e1ec78c94962926b9a97b8ab.jpg"
+    }
+  ]
+}
