@@ -5,8 +5,8 @@ import Posts from './Posts';
 function Feed() {
 
   return (
-    <div>
-      <div className=' story'>
+    <div className=' border-start d-flex justify-content-center flex-column align-items-center'>
+      <div>
          <Story />
       </div>
     

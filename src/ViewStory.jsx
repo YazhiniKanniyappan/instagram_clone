@@ -19,10 +19,16 @@ function ViewStory() {
     <div>
         {
             story ? 
-            <div className='d-flex justify-content-center align-items-center'>
-                <Link to={`http://localhost:5173/story/${Number(id)-1}/${tot}`}><i className="fs-2 text-dark bi bi-arrow-left-circle-fill"></i></Link>
-                <img src={story.img} className="vh-100 vw-50 " alt="Unavailable" />
-                <Link to={`http://localhost:5173/story/${Number(id)+1}/${tot}`}><i className="fs-2 text-dark p-2 bi bi-arrow-right-circle-fill"></i></Link>
+            <div  className='position-relative'>
+                <div className="pos d-flex gap-2 align-items-center">
+                    <img className="profile rounded-circle p-2" src={story.profile_pic} alt="Profile" />
+                    <p className='text-light'>{story.username}</p>
+                </div>
+                <div className='d-flex justify-content-center align-items-center'>
+                    <Link to={`http://localhost:5173/story/${Number(id)-1}/${tot}`}><i className="fs-2 text-dark bi bi-arrow-left-circle-fill"></i></Link>
+                    <img src={story.img} className="view-story card m-4  w-25 " alt="Unavailable" />
+                    <Link to={`http://localhost:5173/story/${Number(id)+1}/${tot}`}><i className="fs-2 text-dark p-2 bi bi-arrow-right-circle-fill"></i></Link>
+                </div>
             </div> : 
             
             <div>Loading..</div>

@@ -12,10 +12,6 @@
     margin-right: 10px;
 }
 
-.story{
-    height:70PX;
-}
-
 .profile{
     height: 50px;
     width: 50px;
@@ -31,4 +27,13 @@
     height: 55px;
     background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);;
 
+}
+.view-story {
+    height: 500px;
+}
+.pos{
+    left: 490px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
 }

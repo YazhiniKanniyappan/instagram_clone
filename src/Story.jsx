@@ -19,7 +19,7 @@ function Story() {
         <div className='story-div d-flex m-2 gap-2' >
         {
           stories.map((story)=>(
-            <div className='d-flex flex-column' key={story.user_id} onClick={()=> navigate(`/story/${story.id}/${tot}`)}>
+            <div className='d-flex flex-column' key={story.id} onClick={()=> navigate(`/story/${story.id}/${tot}`)}>
               <div className="story-color d-flex align-items-center justify-content-center ">
                 <img className="profile rounded-circle" src={story.profile_pic} alt="Profile" />
               </div>

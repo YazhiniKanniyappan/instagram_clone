@@ -37,7 +37,7 @@ function Suggestions() {
               <small className=' ms-auto fw-bold'>see All</small>
             </div>
             {suggestions.map((suggestion) => (
-            <div key={suggestion.user_id} className="my-3 ">
+            <div key={suggestion.id} className="my-3 ">
               <div className="d-flex gap-2 align-items-center">
                 <img className="profile rounded-circle p-2" src={suggestion.profile_pic} alt="Profile" />
                 <p>{suggestion.username}</p>
